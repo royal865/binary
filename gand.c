@@ -126,7 +126,7 @@ int main(int argc, char *argv[]) {
     print_stylish_text();
 
     if (argc < 4) {
-        printf("Usage: ./chut <IP> <Port> <Time>\n", argv[0]);
+        printf("Usage: %s <IP> <Port> <Time>\n", argv[0]);
         return 1;
     }
 
